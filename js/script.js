@@ -1,7 +1,7 @@
-const RADIO_NAME = 'Jailson Web Rádio';
+const RADIO_NAME = 'Rádio Flix';
 
 // Change Stream URL Here, Supports, ICECAST, ZENO, SHOUTCAST, RADIOJAR and any other stream service.
-const URL_STREAMING = 'https://stream-173.zeno.fm/cbzw2rbebfkuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJjYnp3MnJiZWJma3V2IiwiaG9zdCI6InN0cmVhbS0xNzMuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6InR2eWNQSFBaUlRXeTg3NXB5OF9PSEEiLCJpYXQiOjE3NTc5ODc0ODUsImV4cCI6MTc1Nzk4NzU0NX0.UxYbxjrT_dRBfNAfh51E-0i_qDrRrUjRedhUaESuw10';
+const URL_STREAMING = 'https://stream.zeno.fm/cbzw2rbebfkuv';
 
 //API URL /
 const API_URL = 'https://twj.es/free/?url='+URL_STREAMING;
@@ -526,4 +526,5 @@ function intToDecimal(vol) {
 function decimalToInt(vol) {
     return vol * 100;
 } 
+
 
