@@ -457,7 +457,7 @@ function mute() {
         document.getElementById('volIndicator').innerHTML = 0;
         document.getElementById('volume').value = 0;
         audio.volume = 0;
-        audio.muted = false;
+        audio.muted = true;
     } else {
         var localVolume = localStorage.getItem('volume');
         document.getElementById('volIndicator').innerHTML = localVolume;
@@ -526,5 +526,3 @@ function intToDecimal(vol) {
 function decimalToInt(vol) {
     return vol * 100;
 } 
-
-
