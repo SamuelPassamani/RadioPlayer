@@ -1,6 +1,6 @@
 {
-  "name": "Jailson Webradio",
-  "short_name": "Jailson Webradio",
+  "name": "Rádio Flix",
+  "short_name": "Rádio Flix",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -13,3 +13,4 @@
     }
   ]
 }
+
